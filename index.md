@@ -1,14 +1,16 @@
 # Leonid Matyushin [<img src="https://github.githubassets.com/images/icons/emoji/shipit.png" width="50"/>]()
-### Software Engineer "Highly skilled migrant" residence permit
+### Software Engineer | "Highly skilled migrant" residence permit
 #### Amsterdam, North Holland, Netherlands
 
 [GitHub](https://github.com/matyushinleonid) · [LinkedIn](https://linkedin.com/in/matyushinleonid) · [Telegram](http://t.me/matyushinleonid)
 
 ## Experience
 
-### Yandex
+### Nebius
 **Software Engineer**  
 August 2023 - Present Amsterdam, North Holland, Netherlands  
+<img src="https://github.githubassets.com/images/icons/emoji/suspect.png" width="20"/> Developed a controller for an in-house k8s operator to manage node readiness, ensuring user load is scheduled on fully ready bare metal nodes  
+<img src="https://github.githubassets.com/images/icons/emoji/suspect.png" width="20"/> Templated ClusterAPI components into Timoni modules, reducing code duplication and simplifying updates of infrastructural k8s clusters  
 <img src="https://github.githubassets.com/images/icons/emoji/suspect.png" width="20"/> Designed and implemented machine translation and text-to-speech microservices as parts of the video translation backend  
 <img src="https://github.githubassets.com/images/icons/emoji/suspect.png" width="20"/> Designed and implemented REST API for the video translation backend  
 <img src="https://github.githubassets.com/images/icons/emoji/suspect.png" width="20"/> Migrated data from AWS S3 to Nebius S3. It saves $2k a month on data storage  
