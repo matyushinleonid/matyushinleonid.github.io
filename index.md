@@ -48,13 +48,9 @@ August 2017 - September 2017 | Moscow, Russia
 [GitHub](https://github.com/matyushinleonid/k8s.leonid.sh)
 A personal Kubernetes platform on Yandex Cloud. Cloud resources — cluster, network, managed PostgreSQL, registry, DNS, secret storage — are declared as code in Terraform and bootstrapped with Ansible; every workload on top is delivered by Argo CD from Git. The platform layer carries Envoy Gateway with cert-manager and ExternalDNS for ingress and certificates, External Secrets for credentials, and self-hosted Prometheus, Grafana, and Loki for monitoring, alerting, and logs. It hosts the rest of the projects here. **Kubernetes, Terraform, Ansible, Argo CD, Envoy, Prometheus**
 
-### sein-zum-tode
+### sein zum tode
 [GitHub](https://github.com/matyushinleonid/sein-zum-tode) · [@SeinZumTodeBot](https://t.me/SeinZumTodeBot)
 A Telegram bot intended to help users confront the prospect of death as something that will happen and, moreover, **is already happening** to them. The user is asked a series of questions, after which an LLM estimates roughly how much of their life is left. The value of it is the daily shrinking number of remaining days, which the bot keeps sending. Each conversation runs as a Temporal workflow, PostgreSQL is the main database, and Redis keeps the sensitive answers only temporarily, for privacy. **Python, aiogram, Temporal, OpenAI API, PostgreSQL, Redis**
-
-### minecraft.leonid.sh
-[GitHub](https://github.com/matyushinleonid/k8s.leonid.sh/tree/main/argocd/minecraft) · [map.minecraft.leonid.sh](https://map.minecraft.leonid.sh)
-«Киркой по голове», a Minecraft server running on the personal Kubernetes cluster with its world on a persistent cloud disk and its releases delivered by Argo CD. A BlueMap renderer publishes a browsable map of the world. **Kubernetes, Helm, Argo CD**
 
 ## Education
 
