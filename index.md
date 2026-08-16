@@ -1,8 +1,14 @@
+---
+canonical_url: https://leonid.sh/en/
+---
+
 # Leonid Matyushin (Леонид Матюшин) [<img src="https://github.githubassets.com/images/icons/emoji/shipit.png" width="50"/>]()
 ### Software Engineer
 #### Moscow, Russia
 
 [GitHub](https://github.com/matyushinleonid) · [LinkedIn](https://linkedin.com/in/matyushinleonid) · [Telegram](https://t.me/matyushinleonid)
+
+Software Engineer — backend, distributed systems, cloud and ML infrastructure. Experience building production-grade software at Nebius and NtechLab.
 
 ## Experience
 
@@ -48,7 +54,7 @@ August 2017 - September 2017 | Moscow, Russia
 [GitHub](https://github.com/matyushinleonid/k8s.leonid.sh)
 A personal Kubernetes platform on Yandex Cloud. Cloud resources — cluster, network, managed PostgreSQL, registry, DNS, secret storage — are declared as code in Terraform and bootstrapped with Ansible; every workload on top is delivered by Argo CD from Git. The platform layer carries Envoy Gateway with cert-manager and ExternalDNS for ingress and certificates, External Secrets for credentials, and self-hosted Prometheus, Grafana, and Loki for monitoring, alerting, and logs. It hosts the rest of the projects here. **Kubernetes, Terraform, Ansible, Argo CD, Envoy, Prometheus**
 
-### sein zum tode
+### Sein zum Tode
 [GitHub](https://github.com/matyushinleonid/sein-zum-tode) · [@SeinZumTodeBot](https://t.me/SeinZumTodeBot)
 A Telegram bot intended to help users confront the prospect of death as something that will happen and, moreover, **is already happening** to them. The user is asked a series of questions, after which an LLM estimates roughly how much of their life is left. The value of it is the daily shrinking number of remaining days, which the bot keeps sending. Each conversation runs as a Temporal workflow, PostgreSQL is the main database, and Redis keeps the sensitive answers only temporarily, for privacy. **Python, aiogram, Temporal, OpenAI API, PostgreSQL, Redis**
 
