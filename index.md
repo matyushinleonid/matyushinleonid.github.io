@@ -1,5 +1,5 @@
 ---
-canonical_url: https://leonid.sh/en/
+canonical_url: https://leonid.sh/
 ---
 
 # Leonid Matyushin (Леонид Матюшин) [<img src="https://github.githubassets.com/images/icons/emoji/shipit.png" width="50"/>]()
